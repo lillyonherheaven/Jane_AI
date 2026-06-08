@@ -182,4 +182,4 @@ cryptography>=42.0.0
 ## License
 
 © 2025 Jane-AI — All Rights Reserved. 
-Submitted to **ITIDA Smart Village** innovation program.
+Submitted to **ITIDA Smart Village** innovation program (on progress)
