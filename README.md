@@ -1,4 +1,4 @@
-# 🧠 Jane-AI — Local Autonomous AI Companion & Desktop Workspace
+# Jane-AI — Local Autonomous AI Companion & Desktop Workspace
 
 
 ![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -11,7 +11,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **Jane-AI** is a production-ready, 100% local, privacy-first desktop autonomous AI companion and multi-agent operating workspace. Built from the ground up to operate in strictly air-gapped environments, Jane-AI combines on-device inference via **Ollama (Llama 3.2 3B & Vision)** with a minimalist monochrome **CustomTkinter** desktop user interface, **ChromaDB + Rank-BM25 Hybrid RAG**, offline multimodal vision inspection, and deterministic **PyAutoGUI / psutil desktop automation**.
 
@@ -43,7 +43,7 @@ No API keys, no telemetry, no cloud subscriptions, and zero external data transm
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Key Features](#-key-features)
 - [System Architecture](#-system-architecture)
@@ -61,21 +61,21 @@ No API keys, no telemetry, no cloud subscriptions, and zero external data transm
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🔒 **100% Offline & Private**: Runs entirely on your CPU / GPU. Your documents, queries, codebases, and audio recordings never leave your machine.
-- 🧠 **Multi-Agent Specialist Router**: Dynamically shifts between specialized personas (General Assistant, Senior Software Engineer, Academic Researcher, and Systems Administrator).
-- 👁️ **Multimodal Screen & IDE Vision**: Instant desktop screenshot capture analyzed through `llama3.2-vision` to debug stack traces, inspect terminal outputs, and review wireframes.
-- 📚 **Hybrid Retrieval (RAG Vault)**: Combines dense semantic vector search (`ChromaDB` embeddings) with sparse keyword matching (`Rank-BM25`) using Reciprocal Rank Fusion (RRF).
-- 🎙️ **Offline Voice Engine**: Speech-to-text with Sphinx fallback, speech synthesis via `pyttsx3`, and sound effects with `pygame`.
-- ⚡ **Desktop Automation Sandbox**: Deterministic PyAutoGUI keystroke automation, system telemetry queries (`psutil`), and path-traversal-locked file operations.
-- 🛡️ **Zero-Trust Security & Fernet Vault**: Real-time regex prompt injection defense, blocked command heuristics, and AES-Fernet encrypted local metadata storage in `~/.jane_ai`.
-- ⌨️ **Global Quick-Bar Overlay**: Press `Ctrl+Space` anywhere to summon the floating quick-command bar.
-- 🎨 **Monochrome Minimalist Interface**: Pure high-contrast dark aesthetic (`#0D0D0D` / `#1A1A1A` / `#FFFFFF`) crafted with `CustomTkinter`.
+-  **100% Offline & Private**: Runs entirely on your CPU / GPU. Your documents, queries, codebases, and audio recordings never leave your machine.
+-  **Multi-Agent Specialist Router**: Dynamically shifts between specialized personas (General Assistant, Senior Software Engineer, Academic Researcher, and Systems Administrator).
+-  **Multimodal Screen & IDE Vision**: Instant desktop screenshot capture analyzed through `llama3.2-vision` to debug stack traces, inspect terminal outputs, and review wireframes.
+-  **Hybrid Retrieval (RAG Vault)**: Combines dense semantic vector search (`ChromaDB` embeddings) with sparse keyword matching (`Rank-BM25`) using Reciprocal Rank Fusion (RRF).
+- **Offline Voice Engine**: Speech-to-text with Sphinx fallback, speech synthesis via `pyttsx3`, and sound effects with `pygame`.
+- **Desktop Automation Sandbox**: Deterministic PyAutoGUI keystroke automation, system telemetry queries (`psutil`), and path-traversal-locked file operations.
+- **Zero-Trust Security & Fernet Vault**: Real-time regex prompt injection defense, blocked command heuristics, and AES-Fernet encrypted local metadata storage in `~/.jane_ai`.
+- **Global Quick-Bar Overlay**: Press `Ctrl+Space` anywhere to summon the floating quick-command bar.
+- **Monochrome Minimalist Interface**: Pure high-contrast dark aesthetic (`#0D0D0D` / `#1A1A1A` / `#FFFFFF`) crafted with `CustomTkinter`.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 | Component | Technology | Purpose |
 | :--- | :--- | :--- |
@@ -89,7 +89,7 @@ No API keys, no telemetry, no cloud subscriptions, and zero external data transm
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 jane_ai_desktop/
@@ -112,7 +112,7 @@ jane_ai_desktop/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 1. **Python 3.10+** (Python 3.10, 3.11, or 3.12 recommended).
 2. **Ollama Installed & Running**:
@@ -125,7 +125,7 @@ jane_ai_desktop/
 
 ---
 
-## ⚡ Quick Start Installation
+## Quick Start Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -176,7 +176,7 @@ python main.py
 
 ---
 
-## 🎭 Multi-Agent Personas
+## Multi-Agent Personas
 
 Jane-AI automatically routes queries to specialized cognitive sub-agents based on context:
 
@@ -191,7 +191,7 @@ Jane-AI automatically routes queries to specialized cognitive sub-agents based o
 
 ---
 
-## 🔍 Hybrid Retrieval (RAG Vault)
+## Hybrid Retrieval (RAG Vault)
 
 Jane-AI employs a **Dual-Engine Hybrid Search** architecture for zero-hallucination document querying:
 
@@ -219,7 +219,7 @@ $$\text{Hybrid Score} = \alpha \cdot \text{Vector Cosine Sim} + (1 - \alpha) \cd
 
 ---
 
-## 🛡️ Desktop Automation & Security Sandbox
+## Desktop Automation & Security Sandbox
 
 All host interactions are strictly gated behind deterministic security policies:
 
@@ -233,7 +233,7 @@ All host interactions are strictly gated behind deterministic security policies:
 
 ---
 
-## ⌨️ Global Hotkeys & UI Shortcuts
+## Global Hotkeys & UI Shortcuts
 
 | Key Combination | Action |
 | :--- | :--- |
@@ -243,7 +243,7 @@ All host interactions are strictly gated behind deterministic security policies:
 
 ---
 
-## 🛠️ Troubleshooting & FAQ
+## Troubleshooting & FAQ
 
 #### Q1: "Connection refused on http://localhost:11434"
 - **Fix**: Ollama is not running. Run `ollama serve` in your terminal or start the Ollama desktop service.
@@ -261,7 +261,7 @@ All host interactions are strictly gated behind deterministic security policies:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are warmly welcomed! To contribute:
 
@@ -273,7 +273,7 @@ Contributions are warmly welcomed! To contribute:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more details.
 
