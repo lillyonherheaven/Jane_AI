@@ -1,13 +1,13 @@
 # 🧠 Jane-AI — Local Autonomous AI Companion & Desktop Workspace
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
-  <img src="https://img.shields.io/badge/Ollama-Llama_3.2_%26_Vision-orange?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/GUI-CustomTkinter_Monochrome-000000?style=for-the-badge" alt="CustomTkinter" />
-  <img src="https://img.shields.io/badge/Storage-ChromaDB_%2B_Rank--BM25-green?style=for-the-badge" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/Privacy-100%25_Air--Gapped-darkred?style=for-the-badge" alt="Air-Gapped" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" alt="License" />
-</p>
+
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-LLaMA%203.2%20%26%20Vision-black?style=for-the-badge&logo=ollama&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-CustomTkinter%20Monochrome-gray?style=for-the-badge)
+![Storage](https://img.shields.io/badge/Storage-ChromaDB%20%2B%20Rank--BM25-green?style=for-the-badge)
+![Privacy](https://img.shields.io/badge/Privacy-100%25%20Air--Gapped-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 
 ---
 
