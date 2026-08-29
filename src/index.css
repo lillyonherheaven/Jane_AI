@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0F0F12;
+    color: #F1F3F4;
+  }
+  
+  [dir="rtl"], .font-arabic {
+    font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom sleek scrollbar matching Gemini dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #131318;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D2F39;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B4E5E;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(124, 77, 255, 0.25), 0 0 30px rgba(0, 229, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(124, 77, 255, 0.5), 0 0 45px rgba(0, 229, 255, 0.3);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
